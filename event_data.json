@@ -1,0 +1,87 @@
+{
+    "resource": "/devices",
+    "path": "/devices",
+    "httpMethod": "POST",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Content-Type": "application/json",
+      "Host": "uxylyvu36l.execute-api.ap-south-1.amazonaws.com",
+      "Postman-Token": "6ecfa937-de6a-40f2-99b5-77f0d11b4242",
+      "User-Agent": "PostmanRuntime/7.39.0",
+      "X-Amzn-Trace-Id": "Root=1-6690fe16-344346830b4795ac7c5af8ef",
+      "X-Forwarded-For": "196.1.1.6",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+      "Accept": [
+        "*/*"
+      ],
+      "Accept-Encoding": [
+        "gzip, deflate, br"
+      ],
+      "Content-Type": [
+        "application/json"
+      ],
+      "Host": [
+        "uxylyvu36l.execute-api.ap-south-1.amazonaws.com"
+      ],
+      "Postman-Token": [
+        "6ecfa937-de6a-40f2-99b5-77f0d11b4242"
+      ],
+      "User-Agent": [
+        "PostmanRuntime/7.39.0"
+      ],
+      "X-Amzn-Trace-Id": [
+        "Root=1-6690fe16-344346830b4795ac7c5af8ef"
+      ],
+      "X-Forwarded-For": [
+        "196.1.1.6"
+      ],
+      "X-Forwarded-Port": [
+        "443"
+      ],
+      "X-Forwarded-Proto": [
+        "https"
+      ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": null,
+    "requestContext": {
+      "resourceId": "5bws5s",
+      "resourcePath": "/devices",
+      "httpMethod": "POST",
+      "extendedRequestId": "ayyjfE43BcwEMRA=",
+      "requestTime": "12/Jul/2024:09:57:42 +0000",
+      "path": "/diot/devices",
+      "accountId": "058264135316",
+      "protocol": "HTTP/1.1",
+      "stage": "diot",
+      "domainPrefix": "uxylyvu36l",
+      "requestTimeEpoch": 1720778262035,
+      "requestId": "46429cff-ede1-47c2-85ca-0d8a66b0128e",
+      "identity": {
+        "cognitoIdentityPoolId": null,
+        "accountId": null,
+        "cognitoIdentityId": null,
+        "caller": null,
+        "sourceIp": "196.1.1.6",
+        "principalOrgId": null,
+        "accessKey": null,
+        "cognitoAuthenticationType": null,
+        "cognitoAuthenticationProvider": null,
+        "userArn": null,
+        "userAgent": "PostmanRuntime/7.39.0",
+        "user": null
+      },
+      "domainName": "uxylyvu36l.execute-api.ap-south-1.amazonaws.com",
+      "deploymentId": "bwlgji",
+      "apiId": "uxylyvu36l"
+    },
+    "body": "{\n    \"device_id\" : 1,\n    \"device_name\" : \"RPI\",\n    \"sensor_data\" : {\n        \"temperature\" : 45,\n        \"humidity\" : 60\n    }\n}",
+    "isBase64Encoded": false
+  }
+  
